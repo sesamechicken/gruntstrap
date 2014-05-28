@@ -1,3 +1,5 @@
-#Hello Gruntstrap v1.0.0#
+#Hello Gruntstrap#
 
 Bootstrap/Grunt/Bower/Fastclick boilerplate to hit the ground running.
+
+**More npm packages added if necessary.**
