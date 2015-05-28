@@ -15,7 +15,8 @@
   ],
   "dependencies": {
     "angular": "~1.4.0",
-    "angular-route": "~1.4.0",
+    "angular-route": "latest",
+    "angular-animate": "latest",
     "bootstrap": "~3.3.4",
     "font-awesome": "~4.3.0"
   },
