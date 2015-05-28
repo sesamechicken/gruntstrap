@@ -1,10 +1,8 @@
 module.exports = function(grunt) {
- 
-  grunt.registerTask('watch', [ 'watch' ]);
-  grunt.registerTask('cssmin', [ 'cssmin' ]);
+  grunt.registerTask('watch', ['watch']);
+  grunt.registerTask('cssmin', ['cssmin']);
   grunt.registerTask('uncss', ['uncss']);
   grunt.initConfig({
-   
     watch: {
       js: {
         files: ['js/*.js'],
@@ -19,7 +17,7 @@ module.exports = function(grunt) {
         }
       },
       html: {
-      	files: ['index.html'],
+      	files: ['*.html'],
       	options: {
       		livereload: true,
       	}
@@ -50,11 +48,9 @@ module.exports = function(grunt) {
       }
     }
   });
- 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-uncss');
- 
 };

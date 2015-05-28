@@ -1,14 +1,16 @@
 {
   "name": "grunt-strap-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "dependencies": {
+    "bower": "latest",
+    "http-server": "latest"
+  },
+  "devDependencies": {
+    "grunt-uncss": "latest",
+    "grunt-contrib-watch": "latest",
     "grunt-contrib-concat": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-less": "latest",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-watch": "latest"
-  },
-  "devDependencies": {
-    "grunt-uncss": "^0.3.6"
+    "grunt-contrib-cssmin": "latest"
   }
 }

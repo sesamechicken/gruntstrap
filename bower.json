@@ -1,0 +1,25 @@
+{
+  "name": "grunt-strap-boilerplate",
+  "version": "1.0.2",
+  "authors": [
+    "Chris Dickow <chris.dickow@gmail.com>"
+  ],
+  "description": "Bootstrap+Grunt-Angular+FastClick Boilerplate",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.13"
+  }
+}
