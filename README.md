@@ -1,5 +1,8 @@
-#Hello Gruntstrap#
-
-Bootstrap/Grunt/Bower/Fastclick boilerplate to hit the ground running.
-
-**More npm packages added if necessary.**
+#Gruntstrap#
+- Angular
+- Bootstrap
+- Grunt -
+- Bower-
+- Fastclick
+- dev use of HTTP-Server
+I like this for boilerplate to hit the ground running.
